@@ -1,0 +1,6 @@
+1, The absolute will place the object relative to the parent object with exact units from top, bottom, right and left.
+The fixed position will place an element relative to the viewport, such as the element will be "sticky" throughout the website,
+regardless of scrolling.
+
+2, Assuming the question is about changing CSS for a "grand-child", then you can simply use nested css-selectors to change
+the styling of the element. If the element in a list, the third element will be :nth-child(3)

@@ -1,0 +1,49 @@
+/*Part 4*/
+
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+li{
+  list-style-type:square;
+}
+
+li>:last-child>:last-child{
+  color:red;
+}
+
+ul{
+  align-items: center;
+}
+
+.content-wrap{
+  margin-top: 100px;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100%;
+  align-content: center;
+}
+
+.site-footer{
+  background: bisque;
+  text-align: center;
+  height: 150px;
+  vertical-align: middle;
+  line-height: 1;
+  font-size: 6vh;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content{
+  vertical-align: middle;
+}
+
+
+

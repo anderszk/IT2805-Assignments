@@ -1,0 +1,64 @@
+body, html {
+    height: 100%;
+    margin:0;
+  }
+
+.heading{
+    margin:0;
+    font-family: 'Montserrat';
+    font-size: 64px;
+    font-weight: 800;
+    padding: 5% 0 20px 5%;
+    color: #FFFFFF;
+}
+
+.subheader{
+    margin:0;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 600;
+    font-style: italic;
+    padding: 0 0 2% 5%;
+    color: #FFFFFF;
+}
+
+.para{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.wrapper{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+    margin: 10px 5%;
+    height: 1vh;
+    padding-right: 100px;
+  }
+
+li{
+    color:#FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.footer{
+  position: absolute;
+  color:#FFFFFF;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 900;
+  padding-top:300px;
+  padding-left: 5%;
+}

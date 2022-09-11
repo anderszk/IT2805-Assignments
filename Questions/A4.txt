@@ -1,0 +1,8 @@
+1, Autoplay on mobile devices are usually turned off due to eventual performance issues or corrupt data, 
+but also to preserve battery and bandwidth
+
+2, The CSS styling inside the media query will only apply to devices or screen sizes in the defined breakpoints,
+so a device with screensize 320 x 568 will not be affected by the written CSS-code, assuming the units are pixels.
+
+3, Maintenance are the key factor when deciding on building a dedicated mobile version for a website. You will literally do
+twice the work, and will need to work on two seperate code bases.
