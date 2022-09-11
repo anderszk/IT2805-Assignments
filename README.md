@@ -17,6 +17,8 @@ Dette er min repo for ovinger og diverse kodesnutter. Kildekode i src og tekstfi
 - 🔐:Assignment 7: **JS** Kan bli funnet [her]()!<br>
 - 🔐:Assignment 8: **Canvas** Kan bli funnet [her]()!<br>
 
+- **.txt-files** kan bli funnet [her](https://github.com/anderszk/IT2805-Assignments/tree/master/Questions)!: 
+
 ##### Prosjekt
 Prosjektet for dette emnet er en landingsside for Clarity AS (fictional).
 
