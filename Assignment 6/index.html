@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tax form</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <form class="form" action="https://folk.ntnu.no/anderobs/webtek/receive_form.php" method="post">
+                <div class="form-wrapper">
+                    <h2>Tax Form</h2>
+
+                    <div class="form-row">
+                        <label>Your Real name</label>
+                        <input type="text" name="name"required>
+                    </div>
+
+                    <div class="form-row">
+                        <label>Gender</label>
+                        <div class = "form-bool">
+                            <input type="radio" name="gender" value="Male" required>Male
+                            <input type="radio" name="gender" value="Female" required>Female
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label>E-mail address</label>
+                        <input type="email" name="email" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label>Birthdate</label>
+                        <input type="date" name="birthdate" min="1988-01-01" required> 
+                    </div>
+
+                    <div class="form-row">
+                        <label>Hero Name</label>
+                        <input type="text" name="hero"required>
+                    </div>
+
+                    <div class="form-row">
+                        <label>Do you wear spandex?</label>
+                        <div class = "form-bool">
+                            <input type="radio" name="spandex" value="Yes" required>Yes
+                            <input type="radio" name="spandex" value="No" required>No
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label>Strength, Speed<br>and Intelligence</label>
+                        <input class="mini" type="number" name="strength" placeholder="tr:" min="1" max="10" required>
+                        <input class="mini" type="number" name="speed" placeholder="spd:" min="1" max="10" required>
+                        <input class="mini" type="number" name="intelligence" placeholder="int:" min="1" max="10" required>
+                    </div>
+
+
+                    <div class="form-row">
+                        <label>Income</label>
+                        <input type="number" name="income" id="income" placeholder="Enter your income:" min="0" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label>Wealth</label>
+                        <input type="number" name="wealth" id="wealth" placeholder="Enter your wealth:" min="0" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label>Tax2Pay</label>
+                        <input type="number" name="tax" id="tax" value ="0" min="0" disabled>
+                    </div>
+
+                    <button>Submit tax form</button>
+                </div>
+            </form>
+        </div>
+        <script>
+            const income = document.getElementById('income');
+            const wealth = document.getElementById('wealth');
+            const tax = () => {document.getElementById("tax").value = (0.35*income.value)+(0.25*wealth.value);}
+
+            wealth.addEventListener("input", tax)
+            income.addEventListener("input", tax)
+
+
+        </script>
+    </body>
+</html>
