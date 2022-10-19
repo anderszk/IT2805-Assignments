@@ -1,0 +1,13 @@
+1, I will evaluate to False because Javascript uses binary floating-point numbers, which means that the result is a
+product of an exponent and a mantissa, which will rarely result in a clean integer.
+
+2, The method-attribute of a form defines how the data should be sent. the GET-method will pass it to the URL, while
+the POST-method will pass it as a HTTP post transaction.
+
+3, This is because the server will return the data from the form in the URL. idk? It's just how itizz
+
+4, Validation with only HTML and JS is a bad practise because it is all on the front-end side, which is exposed directly
+to the user. This means that it is vulnerable to changes, errors and manipulation from the client-side.
+
+5, If you have a longer piece of text or a message it would be appropriate with a textarea, as input is primarly one-lined.
+

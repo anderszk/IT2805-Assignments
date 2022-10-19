@@ -1,0 +1,100 @@
+body{
+    background-color:#C2DED1; 
+    font-family: "Montserrat"; 
+    color: #354259;
+}
+
+.wrapper{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+h1{font-size: 5em;}
+
+label{
+    font-size: 2em;
+}
+
+input[type=text]{
+    border:0;
+    color: #354259;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 5vh;
+    width: 25vw;
+    padding: 0 10%;
+    background-color: #ECE5C7;
+    outline: 0;
+    border: 2px solid #354259;
+}
+
+input[type=button]{
+    border:0;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 20px;
+    height: 5vh;
+    width: 10vw;
+    background-color: #354259;
+    outline: 0;
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top: 3%;
+    justify-content: start;
+    align-items: center;
+}
+
+.task-container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    align-items: center;
+    height: 20vh;
+    justify-content: space-between;
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1% auto;
+    width: 100%;
+    height: 6vh;
+    background-color: #354259;
+    padding: 0 5%;
+    border-radius: 10px;
+    color:white;
+}
+
+.mb10{
+    margin-bottom: 10%;
+}
+
+
+@keyframes slide-in {
+    from {
+      transform: translateX(-120%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+}
+
+@keyframes slide-out {
+    from {
+      transform: translateX(120%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+}
