@@ -13,11 +13,9 @@ Dette er min repo for ovinger og diverse kodesnutter. Kildekode i src og tekstfi
 - :unlock:Assignment 3: **CSS** kan bli funnet [her](https://github.com/anderszk/IT2805-Assignments/tree/master/Assignment%203)!<br>
 - :unlock:Assignment 4: **Multimedia and CSS** kan bli funnet [her](https://github.com/anderszk/IT2805-Assignments/tree/master/Assignment%204)!<br>
 - :unlock:Assignment 5: **JS Intro** kan bli funnet [her](https://github.com/anderszk/IT2805-Assignments/tree/master/Assignment%205)!<br>
-- 🔐:Assignment 6: **JS and Forms** kan bli funnet [her]()!<br>
-- 🔐:Assignment 7: **JS** Kan bli funnet [her]()!<br>
+- :unlock:Assignment 6: **JS and Forms** kan bli funnet [her](https://github.com/anderszk/IT2805-Assignments/tree/master/Assignment%206)!<br>
+- :unlock:Assignment 7: **JS** Kan bli funnet [her](https://github.com/anderszk/IT2805-Assignments/tree/master/Assignment%207)!<br>
 - 🔐:Assignment 8: **Canvas** Kan bli funnet [her]()!<br>
-
-- **.txt-files** kan bli funnet [her](https://github.com/anderszk/IT2805-Assignments/tree/master/Questions)!: 
 
 ##### Prosjekt
 Prosjektet for dette emnet er en landingsside for Clarity AS (fictional).
