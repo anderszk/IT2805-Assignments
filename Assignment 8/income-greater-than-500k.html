@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Income greather than 500 000</title>
+    <meta charset="UTF-8">
+    <script src="taxForms.js"></script>
+  </head>
+  <body>
+    <script>
+      for (let person in taxForms){
+        if (taxForms[person].income > 500000){console.log(taxForms[person].realName);}
+      }
+    </script>
+  </body>
+</html>
