@@ -1,0 +1,8 @@
+1, To get a 3-dimensional context you need to pass 'webgl' as the parameter (getContext('webgl')).
+
+2, To create a circle you would use the arc-function of the canvas library. 
+"document.getElementById('myCanvas').getContext('2d').arc(centerX, centerY, radius, 0, 2 * Math.PI);"
+This function will take is the center (x,y)-coordinates of the circle, the radius and the angle, which in
+circle will be 2pi.
+
+3, "const startsWithN = countries.filter((country) => country.startsWith("N"));"
