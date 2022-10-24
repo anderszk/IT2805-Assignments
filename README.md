@@ -15,7 +15,7 @@ Dette er min repo for ovinger og diverse kodesnutter. Kildekode i src og tekstfi
 - :unlock:Assignment 5: **JS Intro** kan bli funnet [her](https://github.com/anderszk/IT2805-Assignments/tree/master/Assignment%205)!<br>
 - :unlock:Assignment 6: **JS and Forms** kan bli funnet [her](https://github.com/anderszk/IT2805-Assignments/tree/master/Assignment%206)!<br>
 - :unlock:Assignment 7: **JS Continued** Kan bli funnet [her](https://github.com/anderszk/IT2805-Assignments/tree/master/Assignment%207)!<br>
-- 🔐:Assignment 8: **Canvas** Kan bli funnet [her]()!<br><br>
+- :unlock:Assignment 8: **Canvas** Kan bli funnet [her](https://github.com/anderszk/IT2805-Assignments/tree/master/Assignment%207)!<br><br>
 - :unlock:Assignment PDF: **Øvingene** Kan bli funnet [her](https://github.com/anderszk/IT2805-Assignments/tree/master/Assignment%20PDF)!<br>
 
 
